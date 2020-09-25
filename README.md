@@ -8,4 +8,11 @@ The goal of the project to construct a machine learning model to perform segment
 
 The project was completed using TensorFlow Object Detection API to build a YOLO (You Only Look Once) model. 
 
-200 hundred
+200 hundred images were manullay annotated using labelim (https://github.com/wangxianrui/labelImage). This generated XML files of the coordinates of the boxes on each image. The XML files were converted into CSV files and then into TensorFlow's TFrecord.
+
+The configurations files were imported from TensorFlow and were used to train a model of 10 layers. The model was trained with the labeled dataset which took 5 hours and provided a loss of 1.75. The model was tested on 50 images and the metric used to evaluate the model was Jaccard score. The model achieved an average Jaccard score of 85%.
+
+![output_img](https://user-images.githubusercontent.com/35766943/94220401-bfaae980-fee0-11ea-96c8-f3a587f671f4.png)
+
+
+
