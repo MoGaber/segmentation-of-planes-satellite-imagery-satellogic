@@ -1,0 +1,26 @@
+<annotation>
+	<folder>drive-download-20200305T064548Z-001</folder>
+	<filename>35.png</filename>
+	<path>C:\Users\simon\Downloads\Satellogic\drive-download-20200305T064548Z-001\35.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plane</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>641</xmin>
+			<ymin>724</ymin>
+			<xmax>673</xmax>
+			<ymax>769</ymax>
+		</bndbox>
+	</object>
+</annotation>
