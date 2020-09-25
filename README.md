@@ -12,7 +12,7 @@ The project was completed using TensorFlow Object Detection API to build a YOLO 
 
 The configurations files were imported from TensorFlow and were used to train a model of 10 layers. The model was trained with the labeled dataset which took 5 hours and provided a loss of 1.75. The model was tested on 50 images and the metric used to evaluate the model was Jaccard score. The model achieved an average Jaccard score of 85%.
 
-![output_img](https://user-images.githubusercontent.com/35766943/94220401-bfaae980-fee0-11ea-96c8-f3a587f671f4.png)
+![output_img](https://user-images.githubusercontent.com/35766943/94220577-2af4bb80-fee1-11ea-83b2-2f7280bf9985.png)
 
 
 
