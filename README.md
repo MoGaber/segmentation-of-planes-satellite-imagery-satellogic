@@ -1,1 +1,1 @@
-# Segmentation-of-segmentation-of-satellite-imagery-th
+# Segmentation-of-satellite-imagery-th
