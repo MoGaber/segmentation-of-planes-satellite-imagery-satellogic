@@ -13,7 +13,7 @@ Satellogic is an Argentine satellite company. They wanted to build a machine lea
 - I used the configuration file provided by the model (with a small edits to the batch size and number of classes).
 - I trained the model on the data and generated a frozen input graph.
 - I finally imported the model with the generated frozen input graph to test on the test dataset.
-- I measured the accuracy using the mAP which is just the average intersection over union (Jaccard score). I found the score to be 80%
+- I measured the accuracy using the mAP which is just the average intersection over union (Jaccard score). I found the score to be 85%
 
 The evaluation metric of the model is the COCO mAP (mean average precision). mAP is the average of the IOU for the images. IOU is intersection over union. It’s the intersection of the predicted box over the intersection of the union of two boxes. As you can imagine, the larger the intersection the closer it will be to the union and then the larger the accuracy. I put a threshold of 0.5 so that if IoU>0.5 we consider that to be a correct prediction or a true positive. Then mAP is just the average
 
