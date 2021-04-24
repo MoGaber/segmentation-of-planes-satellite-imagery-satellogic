@@ -6,7 +6,7 @@ A project for the company Satellogic.
 ![43](https://user-images.githubusercontent.com/35766943/94219188-24187980-fede-11ea-82ca-0f344b1e0f81.png)
 
 Satellogic is an Argentine satellite company. They wanted to build a machine learning model that can perform object-detection on the images their satellite collects. I completed that project using Tensorflow API. I did the following:
-- Received a dataset of 200 images. Manually labeled the images using "labelimg" which produced xml files of the coordinates of the boxes on each image.
+- Received a dataset of 2000 images. Manually labeled the images using "labelimg" which produced xml files of the coordinates of the boxes on each image.
 - I turned the xml to csv format and split it randomly into train and test
 - I Generated a tf_record for the train and test files using the provided notebook by TF
 - I used the mobilenet model from tensorflow which was trained on COCO dataset. TensorFlow provides various versions of the models and the tradeof between these models is the speed and accuracy, I chose this version: https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md
